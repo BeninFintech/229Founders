@@ -7,11 +7,14 @@ module.exports = {
         128: '32rem',
       },
     },
+    fontFamily: {
+      'poppins': ['poppins', 'sans-serif'],
+      'montserrat': ['montserrat', "sans-serif"]
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
   ],
 }
